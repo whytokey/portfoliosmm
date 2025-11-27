@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио SMM-менеджера - [Твое Имя]</title>
+    <style>
+        /* --- ОБЩИЕ СТИЛИ --- */
+        body {
+            font-family: 'Helvetica Neue', 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* --- ШАПКА --- */
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #111;
+        }
+
+        header .subtitle {
+            font-size: 1.2em;
+            color: #555;
+            font-weight: 300;
+        }
+
+        header .contact-links a {
+            color: #007bff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: 500;
+        }
+
+        header .contact-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* --- ЗАГОЛОВКИ СЕКЦИЙ --- */
+        h2 {
+            font-size: 2em;
+            color: #111;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            font-size: 1.4em;
+            color: #333;
+            margin-top: 30px;
+        }
+
+        /* --- КАРТОЧКИ ПРОЕКТОВ --- */
+        .project-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            /* Две колонки */
+            gap: 30px;
+        }
+
+        .project-card {
+            background: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            padding: 25px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+        }
+
+        .project-card h3 {
+            margin-top: 0;
+        }
+
+        .project-card ul {
+            padding-left: 20px;
+            margin-bottom: 0;
+        }
+
+        .project-card a {
+            font-weight: 600;
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .project-card a:hover {
+            text-decoration: underline;
+        }
+
+        /* --- ПРИМЕРЫ ПОСТОВ --- */
+        .post-example {
+            background: #ffffff;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+            margin-bottom: 30px;
+            overflow: hidden;
+            /* Чтобы скриншот не вылезал */
+        }
+
+        .post-content {
+            padding: 25px;
+        }
+
+        .post-example img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .post-example pre {
+            background: #fdfdfd;
+            border: 1px solid #eee;
+            padding: 15px;
+            border-radius: 5px;
+            white-space: pre-wrap;
+            /* Перенос текста */
+            word-wrap: break-word;
+            font-family: 'Menlo', 'Courier New', monospace;
+            font-size: 0.95em;
+        }
+
+        .smm-comment {
+            background: #fdfdea;
+            /* Легкий желтый фон */
+            border-left: 4px solid #ffd700;
+            padding: 15px 20px;
+            margin-top: 20px;
+            font-style: italic;
+        }
+
+        .smm-comment strong {
+            font-style: normal;
+        }
+
+        /* --- Адаптивность --- */
+        @media (max-width: 768px) {
+            .project-grid {
+                grid-template-columns: 1fr;
+                /* Одна колонка на мобильных */
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Михаил</h1>
+            <div class="subtitle">SMM-менеджер & Контент-стратег</div>
+            <div class="contact-links">
+                <a href="httpsa://t.me/fyefye" target="_blank">Telegram</a>
+            </div>
+        </header>
+
+        <main>
+            <section class="кейсы">
+                <h2>Ключевые проекты (кейсы)</h2>
+                <div class="project-grid">
+
+                    <div class="project-card">
+                        <h3>Fashion-канал <a href="https://t.me/fyefye" target="_blank">@fyefye</a></h3>
+                        <ul>
+                            <li><b>Подписчики:</b> 6750+ (выращен с нуля)</li>
+                            <li><b>Тематика:</b> Мода, фэшн-индустрия, lifestyle.</li>
+                            <li><b>Ключевые навыки:</b>
+                                <ul>
+                                    <li>Создание сильного визуального стиля.</li>
+                                    <li>Работа с "быстрыми" трендами.</li>
+                                    <li>Формирование лояльного комьюнити.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Кино-канал <a href="https://t.me/kinoserialov" target="_blank">@kinoserialov</a></h3>
+                        <ul>
+                            <li><b>Подписчики:</b> 1770+ (выращен с нуля)</li>
+                            <li><b>Тематика:</b> Новости кино и сериалов.</li>
+                            <li><b>Ключевые навыки:</b>
+                                <ul>
+                                    <li>Работа в формате "инфотейнмент".</li>
+                                    <li>Курирование и рерайт инфоповодов.</li>
+                                    <li>Удержание аудитории (high retention).</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="post-examples">
+                <h2>Примеры постов из каналов</h2>
+
+                <div class="post-example">
+                    <img src="https://i.imgur.com/ZkaYr95.jpeg" alt="Пример поста Инфотейнмент">
+                    <div class="post-content">
+                        <h3>Категория: Инфотейнмент / Новостной пост (@kinoserialov)</h3>
+                        <pre>
+Ева Смирнова сыграла вместе с настоящим роботом в спин-оффе франшизы «Не одна дома».
+
+В Беларуси завершились съемки комедии «Робоняня», спин-оффа франшизы «Не одна дома». В картине играют Ева Смирнова, блогеры Елена и Денис Кукояки и их дочь Василиса, Милана Хаметова, Ольга Тумайкина, Тимофей Зайцев, Андрей Пынзару, Никита Конкин и Давид Манукян. По сюжету, умная и изобретательная Злата (Ева Смирнова) мечтает попасть на школьный бал и возможно впервые там поцеловаться. Ради этого она хитростью остаётся на каникулы одна дома. Изобретательность Злата унаследовала от родителей (Денис и Елена Кукояк), которые оставляют присматривать за дочерью экспериментального робота с искусственным интеллектом. Попытка перехитрить «няньку» и попасть на бал превращается в приключение, в котором девочка учится ответственности, дружбе и любви. Активно использует домашнего робота в создании контента и семья блогеров Кукояк.
+
+#новостикино
+...
+                        </pre>
+                        <p><a href="https://t.me/kinoserialov/2692" target="_blank">Ссылка на пост в Telegram</a></p>
+                    </div>
+                </div>
+                <div class="post-example">
+                    <img src="https://i.imgur.com/NvqTxAQ.png" alt="Пример поста Вовлекающий">
+                    <div class="post-content">
+                        <h3>Категория: Вовлекающий пост / Подборка (@fyefye)</h3>
+                        <pre>
+🦴Страны происхождения разных модных брендов
+
+#интересное
+...
+                        </pre>
+                        <p><a href="https://t.me/fyefye/7164" target="_blank">Ссылка на пост в Telegram</a></p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+</body>
+
+</html>
